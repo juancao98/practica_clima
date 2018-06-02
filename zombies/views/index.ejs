@@ -1,0 +1,19 @@
+<% include header %>
+<% if (entries.length){%>
+<div class="panel panel-default">
+<div class="panel-heading">
+<div class="tex-muted pull-right">
+<%=entry.created % > 
+</div>
+< %=entry.title %>
+</ div>
+<div class="panle-body">
+<%=entry.body %>
+</div>
+</div>
+<%})%>
+<%} else{%>
+<imge
+<p> Zoombies ! <a href="/new-entry"> agregar una!</a></p>
+<%}%>
+<% include footer %>
